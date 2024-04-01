@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px
+}
+
+#name,
+#file {
+    font-size: 15px;
+    border: 3px solid rgb(0, 0, 0);
+    width: 487px;
+    border-radius: 15px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    padding: 12px 15px;
+}
+
+#submit {
+    display: block;
+    font-size: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    width: 140px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    padding: 12px 15px;
+    border-radius: 17px;
+    color: rgb(254, 241, 212);
+    margin: 8px auto;
+}
+
+#submit:hover {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card {
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: auto;
+}
+
+th,
+td {
+
+    border: 1px solid #000000;
+    padding: 8px 25px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+th {
+    text-transform: uppercase;
+    font-weight: light;
+}
+
+td {
+    font-size: 1.2rem;
+}
+ td a{
+    text-decoration: none;
+    color: #000000;
+ }
+  td a:hover{
+    color: red;
+  }
